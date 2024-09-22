@@ -1,0 +1,2 @@
+Prefix plugins/ShatterSeek/example/
+Plugin ShatterSeek inputfile parameters.txt outputfile output.pdf
