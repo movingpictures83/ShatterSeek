@@ -30,4 +30,5 @@ end=SCNA_DO17373$end,
 total_cn=SCNA_DO17373$total_cn)
 chromothripsis <- shatterseek(SV.sample=SV_data, seg.sample=CN_data)
 plots_chr3 = plot_chromothripsis(ShatterSeek_output = chromothripsis,chr = "3", sample_name="DO17373")
+write.csv(chromothripsis@chromSummary$chrom, paste(outputfile, "csv", sep="."))
 }
